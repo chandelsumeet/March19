@@ -1,0 +1,392 @@
+.bg-gray1
+{display: block;
+    background-color: #ced7d9;
+}
+.color-blue
+{
+    color: #09c0e8;
+}
+
+.color-gray
+{
+    color: #828687;
+}
+.sec1-grid
+{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.sec1-icon1
+{
+    display: none;
+}
+
+.sec1-tab1,.sec1-tab2,.sec1-tab3
+{
+    display: none;
+}
+#sec1-c1:checked ~  .sec1-coll .sec1-card .sec1-tab1
+{
+    display: grid;
+}
+
+#sec1-c2:checked ~  .sec1-coll .sec1-card .sec1-tab2
+{
+    display: grid;
+}
+#sec1-c3:checked ~  .sec1-coll .sec1-card .sec1-tab3
+{
+    display: grid;
+}
+
+
+#sec1-c1:checked ~  .sec1-coll .sec1-card  .sec1-l1 .sec1-icon1
+{
+    display: block;
+    font-size: 1rem;
+}
+#sec1-c1:checked ~ .sec1-coll .sec1-card  .sec1-l1 .sec1-icon2
+{
+    display: none;
+}
+
+
+
+#sec1-c2:checked ~  .sec1-coll .sec1-card  .sec1-l2 .sec1-icon1
+{
+    display: block;
+    font-size: 1rem;
+}
+#sec1-c2:checked ~ .sec1-coll .sec1-card  .sec1-l2  .sec1-icon2
+{
+    display: none;
+}
+
+
+
+#sec1-c3:checked ~  .sec1-coll .sec1-card  .sec1-l3 .sec1-icon1
+{
+    display: block;
+    font-size: 1rem;
+}
+#sec1-c3:checked ~ .sec1-coll .sec1-card  .sec1-l3 .sec1-icon2
+{
+    display: none;
+}
+.icon-just
+{
+    justify-self: end;
+}
+.borderl
+{
+border-left: 2px solid #09c0e8;
+}
+.border-radius4
+{
+    border-radius: 4px;
+}
+.sec1-pad
+{
+    padding: 13px 13px;
+}
+.sec1-coll
+{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    row-gap: 1rem;
+}
+.sec1-pad2
+{
+    padding: 16px 0;
+}
+.section1 input
+{
+    display: none;
+}
+
+
+
+
+.sec2-tab1,.sec2-tab2,.sec2-tab3
+{
+    display: none;
+}
+#sec2-r1:checked ~  .sec2-coll .sec2-card .sec2-tab1
+{
+    display: grid;
+}
+
+#sec2-r2:checked ~  .sec2-coll .sec2-card .sec2-tab2
+{
+    display: grid;
+}
+#sec2-r3:checked ~  .sec2-coll .sec2-card .sec2-tab3
+{
+    display: grid;
+}
+
+
+
+#sec2-r1:checked ~  .sec2-coll .sec2-card  .sec2-l1 .sec2-icon1
+{
+    display: block;
+    font-size: 1rem;
+}
+#sec2-r1:checked ~ .sec2-coll .sec2-card  .sec2-l1 .sec2-icon2
+{
+    display: none;
+}
+
+
+
+#sec1-c2:checked ~  .sec1-coll .sec1-card  .sec1-l2 .sec1-icon1
+{
+    display: block;
+    font-size: 1rem;
+}
+#sec1-c2:checked ~ .sec1-coll .sec1-card  .sec1-l2  .sec1-icon2
+{
+    display: none;
+}
+
+
+
+#sec1-c3:checked ~  .sec1-coll .sec1-card  .sec1-l3 .sec1-icon1
+{
+    display: block;
+    font-size: 1rem;
+}
+#sec1-c3:checked ~ .sec1-coll .sec1-card  .sec1-l3 .sec1-icon2
+{
+    display: none;
+}
+.sec2-icon1
+{
+    display: none;
+}
+.sec2-coll
+{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    row-gap: 1rem;
+}
+.section2 input
+{
+    display: none;
+}
+
+
+
+
+
+
+
+
+.sec3-tab1,.sec3-tab2,.sec3-tab3
+{
+    display: none;
+}
+#sec3-c1:checked ~  .sec3-coll .sec3-card .sec3-tab1
+{
+    display: grid;
+}
+
+#sec3-c2:checked ~  .sec3-coll .sec3-card .sec3-tab2
+{
+    display: grid;
+}
+#sec3-c3:checked ~  .sec3-coll .sec3-card .sec3-tab3
+{
+    display: grid;
+}
+
+
+
+#sec3-c1:checked ~  .sec3-coll .sec3-card  .sec3-l1 .sec3-icon1
+{
+    display: block;
+    font-size: 1rem;
+}
+#sec3-c1:checked ~ .sec3-coll .sec3-card  .sec3-l1 .sec3-icon2
+{
+    display: none;
+}
+
+
+
+#sec3-c2:checked ~  .sec3-coll .sec3-card  .sec3-l2 .sec3-icon1
+{
+    display: block;
+    font-size: 1rem;
+}
+#sec3-c2:checked ~ .sec3-coll .sec3-card  .sec3-l2  .sec3-icon2
+{
+    display: none;
+}
+
+
+
+#sec3-c3:checked ~  .sec3-coll .sec3-card  .sec3-l3 .sec3-icon1
+{
+    display: block;
+    font-size: 1rem;
+}
+#sec3-c3:checked ~ .sec3-coll .sec3-card  .sec3-l3 .sec3-icon2
+{
+    display: none;
+}
+.sec3-icon1
+{
+    display: none;
+}
+
+.b-m
+{
+    border-bottom: 1px solid #828687;
+}
+.sec3-pad
+{
+    padding: 10px 0;
+}
+#sec3-c1:checked ~  .sec3-coll .sec3-card .sec3-l1 .color-gray
+{
+    color: #09c0e8;
+}
+
+#sec3-c2:checked ~  .sec3-coll .sec3-card  .sec3-l2 .color-gray
+{
+    color: #09c0e8;
+}
+#sec3-c3:checked ~  .sec3-coll .sec3-card  .sec3-l3  .color-gray
+{
+    color: #09c0e8;
+}
+.section3 input
+{
+    display: none;
+}
+
+
+
+
+
+
+
+.sec4-tab1,.sec4-tab2,.sec4-tab3
+{
+    display: none;
+}
+#sec4-c1:checked ~  .sec4-coll .sec4-card .sec4-tab1
+{
+    display: grid;
+}
+
+#sec4-c2:checked ~  .sec4-coll .sec4-card .sec4-tab2
+{
+    display: grid;
+}
+#sec4-c3:checked ~  .sec4-coll .sec4-card .sec4-tab3
+{
+    display: grid;
+}
+
+
+
+#sec4-c1:checked ~  .sec4-coll .sec4-card  .sec4-l1 .sec4-icon1
+{
+    display: block;
+    font-size: 1rem;
+}
+#sec4-c1:checked ~ .sec4-coll .sec4-card  .sec4-l1 .sec4-icon2
+{
+    display: none;
+}
+
+
+
+#sec4-c2:checked ~  .sec4-coll .sec4-card  .sec4-l2 .sec4-icon1
+{
+    display: block;
+    font-size: 1rem;
+}
+#sec4-c2:checked ~ .sec4-coll .sec4-card  .sec4-l2  .sec4-icon2
+{
+    display: none;
+}
+
+
+
+#sec4-c3:checked ~  .sec4-coll .sec4-card  .sec4-l3 .sec4-icon1
+{
+    display: block;
+    font-size: 1rem;
+}
+#sec4-c3:checked ~ .sec4-coll .sec4-card  .sec4-l3 .sec4-icon2
+{
+    display: none;
+}
+.sec4-icon1
+{
+    display: none;
+}
+
+.b-m
+{
+    border-bottom: 1px solid #828687;
+}
+.sec4-pad
+{
+    padding: 10px 0;
+}
+#sec4-c1:checked ~  .sec4-coll .sec4-card .sec4-l1 .color-gray
+{
+    color: #09c0e8;
+}
+
+#sec4-c2:checked ~  .sec4-coll .sec4-card  .sec4-l2 .color-gray
+{
+    color: #09c0e8;
+}
+#sec4-c3:checked ~  .sec4-coll .sec4-card  .sec4-l3  .color-gray
+{
+    color: #09c0e8;
+}
+.section3 input
+{
+    display: none;
+}
+
+
+
+
+
+.acc2-tab1,.acc2-tab2,.acc2-tab3
+{
+    display: none;
+}
+
+#acc2-c1:checked ~  .cards .tab-con .acc2-tab1
+{
+    display: block;
+}
+#acc2-c2:checked ~  .cards .tab-con .acc2-tab2
+{
+    display: block;
+}
+
+#acc2-c3:checked ~  .cards .tab-con .acc2-tab3
+{
+    display: block;
+}
+.lab-grid
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    column-gap: 0.5rem;
+}
+.d-grid
+{
+    display: grid;
+
+}
